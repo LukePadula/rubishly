@@ -1,0 +1,71 @@
+.nav-bar-container {
+  position: fixed;
+  top: 12px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-bar {
+  background-color: #1b664c;
+  border-radius: 150px;
+  padding: 8px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 24px;
+  height: 32px;
+  padding: 8px;
+  animation: dropDown 0.5s ease-out forwards;
+  width: 45%;
+  max-width: 530px;
+}
+
+.nav-buttons {
+}
+
+.nav-item {
+  color: #ffff;
+  font-size: 13px;
+}
+
+.nav-item button {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+.nav-item-selected {
+  background-color: #3e7cf4;
+  border-radius: 100px;
+}
+
+.account-container {
+  background-color: #1c4e3d;
+  width: 40px;
+  height: 40px;
+  border-radius: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* position: fixed;
+  top: 50%;
+  right: 0; */
+  /* transform: translate(-50%, -50%); */
+}
+
+.account-icon {
+  height: 26px;
+}
+
+@keyframes dropDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

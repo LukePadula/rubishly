@@ -1,0 +1,28 @@
+h1,
+h2 {
+  margin: 0;
+}
+
+button {
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+small,
+button {
+  font-family: "Rubik", sans-serif;
+  letter-spacing: 1.2%;
+  font-weight: 300;
+}
+
+button {
+  all: unset;
+}
